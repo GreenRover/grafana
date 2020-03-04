@@ -21,7 +21,7 @@ const buildCjsPackage = ({ env }) => ({
       flatten: false,
       targets: [
         { src: 'compiled/bin/**/*.*', dest: 'dist/' },
-        { src: 'compiled/cli/**/*.*', dest: 'dist/' },
+        { src: 'compiled/cli.js*', dest: 'dist/' },
         { src: 'cypress.json', dest: 'dist/' },
         { src: 'cypress/**/*.+(js|ts)', dest: 'dist/cypress/' },
       ],

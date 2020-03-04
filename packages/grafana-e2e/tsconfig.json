@@ -1,13 +1,4 @@
 {
-  "compilerOptions": {
-    "declarationDir": "dist",
-    "module": "commonjs",
-    "outDir": "compiled",
-    "rootDirs": ["."],
-    "typeRoots": ["node_modules/@types"],
-    "types": ["cypress"]
-  },
-  "exclude": ["dist", "node_modules"],
-  "extends": "@grafana/tsconfig",
-  "include": ["src/**/*.ts", "cypress/support/index.d.ts"]
+  "files": [],
+  "references": [{ "path": "./tsconfig.api.json" }, { "path": "./tsconfig.cli.json" }]
 }

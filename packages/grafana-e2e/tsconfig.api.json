@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "buildcache.json"
+  },
+  "extends": "./tsconfig.api.base.json"
+}

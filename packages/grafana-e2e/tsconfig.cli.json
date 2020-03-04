@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "tsBuildInfoFile": "buildcache.json"
+  },
+  "extends": "./tsconfig.base.json",
+  "include": ["src/bin/**/*.ts", "src/cli.ts"]
+}
